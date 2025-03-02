@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Shannon Rankin | Using Technology to Study Wildlife"
