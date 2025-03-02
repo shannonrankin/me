@@ -1,7 +1,6 @@
 ---
 title: "Science Education"
 ---
-
 ## SciStarter Ambassador
 ::: {layout="[30,70]"}
 ![](images/badge-ambassador.png)
