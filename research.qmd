@@ -3,6 +3,7 @@ title: "Research"
 ---
 
 ## Gliders
+
 ::: {layout="[40,60]"}
 ![](images/Seaglider_Oregon_Coast_S-SWFSC-MMTD.png)
 
@@ -11,6 +12,7 @@ As part of an effort to 'Revolutionize our Science', I am co-leading an effort t
 
 
 ## Adrift in the California Current
+
 ::: {layout="[40,60]"}
 ![](images/adrift_tracks_buoy.png)
 
@@ -18,6 +20,7 @@ The [ADRIFT in the California Current Project](https://sael-swfsc.github.io/Adri
 :::
 
 ## Advanced Methods for Passive Acoustic Monitoring for Marine Mammals
+
 ::: {layout="[40,60]"}
 ![](images/bwBanterResults.jpg)
 
@@ -25,8 +28,8 @@ I have led several efforts to develop and implement advanced methods for acousti
 :::
 
 ## Acoustic Ecology
-::: {layout="[40,60]"}
 
+::: {layout="[40,60]"}
 ![](images/mms613-fig-0002-m.jpg)
 
 During my time at NOAA I was the lead acoustician on our shipboard line-transect surveys that typically ranged from late July to early December (2000 - 2007). These data provided an opportunity to examine the vocal behavior of dolphins in the Pacific Ocean ([Rankin et al. 2008](https://d1wqtxts1xzle7.cloudfront.net/45586681/rankin.etal_vocal.behavior_canacoust081-libre.pdf?1463105693=&response-content-disposition=inline%3B+filename%3DAcoustic_behavior_of_dolphins_in_the_Pac.pdf&Expires=1740887465&Signature=cucoUrdTCqgJ6CeQsa7X-8jw9GYinVTAJvr6bkf3oqgg0AFRd8e7f9Z9xZuPiKEnaVaWl2XlfnJ9M~xvHrmi~UI3QoQJYZQ2APvN5rPs42bUPTR0qPSxkgqd~069~8lfsfZGj6uH9qSLiv8En8yzMomfPVPXHposkzu10aOx4Fqx2reJhDzES2IjtN16IATqzyoF24ptiC5RH4a4z1ozvNaea39RuLpSPJVVgzAJFlJc0E07QumGugcZuE4-fmLD0g3mZrAZ8LL5T1fDhnfTlnnAFbIzwJ7KSttE5cSdDL0bMGv~N2k0~X~MMjUD2x28FC211z8TfLUKpl724rZ0dw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) and a study examining how the vocal behavior of dolphins in the tropical Pacific was inhibited by the presence of killer whales ([Rankin et al. 2013](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1748-7692.2012.00613.x?casa_token=9MJDsGBPbIIAAAAA:FtlOwaikX_5z5_FuAz2qKUO1-1Al9lvowDjdtgXS5jFZyO2Isn17RG4J89l3xe6fvtav-AF4NyfadDQ)).
@@ -34,9 +37,8 @@ During my time at NOAA I was the lead acoustician on our shipboard line-transect
 
 In addition, I have collaborated on a wide array of marine mammal ecology publications ranging from [Vaquita](https://www.researchgate.net/profile/Armando-Martin-Jaramillo-Legorreta/publication/227532864_A_combined_visual_and_acoustic_estimate_of_2008_abundance_and_change_in_abundance_since_1997_for_the_vaquita_Phocoena_sinus/links/5a1ef4460f7e9b9d5e01181a/A-combined-visual-and-acoustic-estimate-of-2008-abundance-and-change-in-abundance-since-1997-for-the-vaquita-Phocoena-sinus.pdf) to [blue whales](https://car-spaw-rac.org/IMG/pdf/Past_and_present_distribution_densities_and_movements_of_blue_whales_Balaenoptera_musculus_in_the_Southern_Hemisphere_and_northern_Indian_Ocean.pdf) to [North Pacific right whales](https://www.researchgate.net/profile/Kim-Shelden/publication/6651566_Acoustic_detection_and_satellite-tracking_leads_to_discovery_of_rare_concentration_of_endangered_North_Pacific_right_whales/links/00463514cb622c5817000000/Acoustic-detection-and-satellite-tracking-leads-to-discovery-of-rare-concentration-of-endangered-North-Pacific-right-whales.pdf).
 
-
-
 ## Marine Mammal Acoustics
+
 ::: {layout="[40,60]"}
 ![](images/m_el339_1_f3.jpeg)
 
