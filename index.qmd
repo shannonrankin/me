@@ -1,0 +1,37 @@
+
+---
+title: ""
+format:
+  html: 
+    page-layout: custom
+---
+
+::: {.grid}
+::: {.g-col-1}
+<!-- Left margin -->
+:::
+
+::: {.g-col-4}
+![](images/ShannonRankin-SWFSC-MMTD-NOAA.jpg)
+:::
+
+::: {.g-col-6}
+# Shannon Rankin
+
+**Passive Acoustic Research \| Program Management  \|  Science Education \| Open Science  **
+
+Wildlife Research Biologist and Lead of the Southwest Acoustic Ecology Lab at Southwest Fisheries Science Center (NOAA Fisheries). I use passive acoustic monitoring (sound!) as a tool to study dolphin and whale populations.
+
+
+
+[<i class="bi bi-envelope"></i>](mailto:shannon.rankin@gmail.com) 
+[<i class="bi bi-github"></i>](https://github.com/shannonrankin) 
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=XC3_zOQAAAAJ&hl=en) 
+[{{< ai orcid >}}](https://orcid.org/0000-0002-8405-5169)
+[{{< ai cv >}}](supplemental/Rankin_CV.pdf)
+:::
+
+::: {.g-col-1}
+<!-- Right margin -->
+:::
+:::

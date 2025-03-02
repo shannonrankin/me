@@ -1,0 +1,30 @@
+---
+title: "Program Management"
+---
+
+Program and Project Management
+
+## Adrift in the California Current
+::: {layout="[40,60]"}
+![](images/adrift_tracks_buoy.png)
+
+The [ADRIFT in the California Current Project](https://sael-swfsc.github.io/Adrift/) (‘Adrift’) used drifting acoustic recorders deployed offshore the U.S. West Coast, combined with more complete analysis of archived data from previous drifting acoustic recorder surveys, to assess the distribution of marine mammals and to characterize the marine soundscape. This study was funded, in part, by the U.S. Department of the Interior, Bureau of Ocean Energy Management (BOEM), Environmental Studies Program, Washington, DC, through Interagency Agreement Number G14M20PG00013 with the Southwest Fisheries Science Center.
+:::
+
+A highlight of the Adrift project was the Central Coast Collaborative Passive Acoustic Monitoring Survey (CCC-PAM). This idea was born of a need to conduct seasonal surveys in a remote region offshore Morro Bay and a desire to minimize the costs associated with our needs. I partnered with NOAA Sanctuaries to conduct a feasibility study in 2022 and we invited colleagues from NOAA Sanctuaries, Monterey Bay Aquarium Research Institute, Northern Chumash Tribal Council, and the Hispanic Access Foundation for the week-long survey. This amazing collaboration resulted not only in reduced overall costs to conduct our research, the strong connections made during this survey continue to live on through research collaborations. A [blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-what-we-can-learn-how-indigenous-peoples-listen) by our partner at NOAA Sanctuaries outlines the positive results from this survey. The following year we conducted three successful seasonal collaborative surveys. 
+
+## Free and Open Science Software for Acoustics (FOSSA)
+
+::: {layout="[40,60]"}
+![](images/swfsc-mmtd-swae_fossa-rankin.png)
+
+FOSSA provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with [PAMGuard](pamguard.org) open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative.
+:::
+
+## Vaquita Express
+
+::: {layout="[40,60]"}
+![](images/P9240220.jpg)
+
+As part of an international collaboration to study the populations of the endangered Vaquita in the northern Gulf of California, I led an effort to use a towed array from a relatively small and quiet vessels (trimaran sailboat). This effort resulted in a [final report](https://swfsc-publications.fisheries.noaa.gov/publications/TM/SWFSC/NOAA-TM-NMFS-SWFSC-439.pdf) and results were included in a [scientific publication](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1748-7692.2010.00438.x). Ultimately, it was found that there was insufficient statistical power to use towed arrays for monitoring the populations of these rare cetaceans, and alternative PAM platforms were used on subsequent surveys. 
+:::

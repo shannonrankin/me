@@ -1,0 +1,28 @@
+---
+title: "Shannon Rankin"
+about:
+  template: trestles
+  image: images/P2200025.jpg
+  links: 
+    - icon: envelope
+      href: mailto:shannon.rankin@gmail.com
+    - icon: github
+      href: https://github.com/shannonrankin
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=XC3_zOQAAAAJ&hl=en
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-8405-5169
+    - text: "{{< ai cv >}}"
+      href: supplemental/Rankin_CV.pdf
+---
+
+I am a Wildlife Research Biologist with NOAA Fisheries who uses passive acoustic monitoring to study marine mammal populations. My interests include using technology for ecological studies, the use of Open Science as a way to approach research and conservation, and sharing our science through education at all levels. 
+
+
+**Texas A & M University** \| Galveston, TX
+
+Master's of Science \| 1999
+
+**University of California, Santa Barbara** \| Santa Barbara, CA
+
+BS in Aquatic Biology and Environmental Studies \| 1994

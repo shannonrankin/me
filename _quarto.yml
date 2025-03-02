@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Shannon Rankin | Using Technology to Study Wildlife"
+  navbar:
+    right:
+      - href: about.qmd
+        text: About
+      - research.qmd
+      - href: programMgmt.qmd
+        text: Program Management
+      - href: education.qmd
+        text: Science Education
+      - href: openScience.qmd
+        text: Open Science
+      # - href: pubs.qmd
+      - href: publications.qmd
+        text: Publications
+      # - href: posts.qmd
+  search: false
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+editor: visual
