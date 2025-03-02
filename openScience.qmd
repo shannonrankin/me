@@ -1,7 +1,6 @@
 ---
 title: "Open Science"
 ---
-
 ## NOAA Fisheries PAM- Strategic Initiative Open Science
 
 ::: {layout="[40,60]"}
