@@ -9,7 +9,6 @@ title: "Science Education"
 As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by [SciStarter](https://scistarter.org/ambassador/228216)) and participate in the [City Nature Challenge](https://www.sdnhm.org/education/community-science/city-nature-challenge/) hosted by The Nat. Planning is ongoing for the event in April 2025.
 :::
 
-
 ## Sound Bytes Blog
 ::: {layout="[40,60]"}
 ![](images/blogSnp.jpg)
