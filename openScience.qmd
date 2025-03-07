@@ -1,12 +1,13 @@
 ---
 title: "Open Science"
 ---
+
 ## NOAA Fisheries PAM- Strategic Initiative Open Science
 
 ::: {layout="[40,60]"}
 ![](images/nmfs-opensci-logo3.png)
 
-As part of the NOAA Fisheries National Strategic Initiative for Passive Acoustic Monitoring, I've been co-leading the [Open Science Team](https://nmfs-ost.github.io/PAM_National_Network/content/SI%20coord/PAM_priority_projects/PAM-OpenScience.html) to encourage adoption of Open Science methods for PAM Teams across all NOAA Science Centers. This included developing a [National PAM Network](https://nmfs-ost.github.io/PAM_National_Network/) platform that links to platforms for each of the NOAA Science Centers and each of the PAM-SI Teams. As part of this work, we continually update a [Open Science](https://nmfs-ost.github.io/PAM-OpenScience/) site that provides methods and additional resources for our community. This work began in early 2024 and is ongoing.
+As part of the NOAA Fisheries National Strategic Initiative for Passive Acoustic Monitoring, I've been co-leading the [Open Science Team](https://nmfs-ost.github.io/PAM_National_Network/content/SI%20coord/PAM_priority_projects/PAM-OpenScience.html) to facilitate adoption of Open Science methods for PAM Teams across all NOAA Science Centers. This included developing a [National PAM Network](https://nmfs-ost.github.io/PAM_National_Network/) platform that links to platforms for each of the NOAA Science Centers and each of the PAM-SI Teams. As part of this work, we continually update a [Open Science](https://nmfs-ost.github.io/PAM-OpenScience/) site that provides methods and additional resources for our community. This work began in early 2024 and is ongoing.
 :::
 
 ## Openscapes Mentor
@@ -22,7 +23,13 @@ As an Openscapes Mentor, I am working with the [Openscapes](https://openscapes.o
 ::: {layout="[40,60]"}
 ![](images/labManual.jpg)
 
-In 2021 we began to transition our Southwest Acoustic Ecology lab to an Open Science Framework. This effort included developing: Lab Manual that serves as a landing page for all the work we do Github Repositories for our ongoing work Weekly Co-working meetings to provide a focused time for working together
+In 2021 we began to transition our Southwest Acoustic Ecology lab to an Open Science Framework. This effort included developing:
+
+-   [SAEL Lab Manual](https://sael-swfsc.github.io/SAEL-lab-manual/) that serves as a landing page for all the work we do
+
+-   [SAEL Github Organization](https://github.com/SAEL-SWFSC) to retain repositories for our ongoing work
+
+-   Weekly Co-working meetings to provide a focused time for working together.
 :::
 
 ## Free and Open Science Software for Acoustics (FOSSA)
@@ -47,7 +54,11 @@ FOSSA provides a streamlined approach to analyzing passive acoustic data using o
 Stack Exchange is a crowd-sourced Question & Answer site where information is archived and publicly accessible. In 2022 I led an effort to develop a Bioacoustics Stack Exchange site to provide a place for people to share information and empower scientists and practitioners from underserved communities to use good science. The proposal process required several months of dedication and required global outreach to scientists in the field of bioacoustics.
 :::
 
-The [Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com/) site is now a thriving portal with over 2,500 users, and links to questions on this site are top responses in relevant google searches. \## Zotero Group Libraries Zotero is an open source tool for organizing and sharing bibliographic resources. As part of larger research projects, we have developed public Zotero group libraries for [Soundscape](https://www.zotero.org/groups/58164/soundscape) and for [PAM-Glider](https://www.zotero.org/groups/5642642/pam-gliders) literature.
+The [Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com/) site is now a thriving portal with over 2,500 users, and links to questions on this site are top responses in relevant google searches.
+
+## Zotero Group Libraries 
+
+Zotero is an open source tool for organizing and sharing bibliographic resources. As part of larger research projects, we have developed public Zotero group libraries for [Soundscape](https://www.zotero.org/groups/58164/soundscape) and for [PAM-Glider](https://www.zotero.org/groups/5642642/pam-gliders) literature.
 
 ## Open Hardware
 

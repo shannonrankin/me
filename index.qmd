@@ -24,8 +24,9 @@ Wildlife Research Biologist and Lead of the Southwest Acoustic Ecology Lab at So
 
 
 
-[<i class="bi bi-envelope"></i>](mailto:shannon.rankin@gmail.com) 
-[<i class="bi bi-github"></i>](https://github.com/shannonrankin) 
+[<i class="bi bi-envelope"></i>](mailto:shannon.rankin@proton.me) 
+[<i class="bi bi-github"></i>](https://github.com/shannonrankin)
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/shannon-rankin-36468034b/)
 [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=XC3_zOQAAAAJ&hl=en) 
 [{{< ai orcid >}}](https://orcid.org/0000-0002-8405-5169)
 [{{< ai cv >}}](supplemental/Rankin_CV.pdf)

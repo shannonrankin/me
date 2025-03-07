@@ -16,15 +16,19 @@ website:
       - href: openScience.qmd
         text: Open Science
       # - href: pubs.qmd
-      - href: publications.qmd
+      - href: pubs.qmd
         text: Publications
       # - href: posts.qmd
   search: false
 
 format:
   html:
-    theme: minty
+    theme: morph
+    # linkcolor: "#035a97" 
+    # navbar-bg: "#06528e"
+    # navbar-fg: #d6eaf8
     css: styles.css
+    link-external-newwindow: true
     toc: true
 
 editor: visual

@@ -1,39 +1,41 @@
 ---
 title: "Science Education"
 ---
+
 ## SciStarter Ambassador
+
 ::: {layout="[30,70]"}
 ![](images/badge-ambassador.png)
 
-
-As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by [SciStarter](https://scistarter.org/ambassador/228216)) and participate in the [City Nature Challenge](https://www.sdnhm.org/education/community-science/city-nature-challenge/) hosted by The Nat. Planning is ongoing for the event in April 2025.
+As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by [SciStarter](https://scistarter.org/ambassador/228216)) and participate in the [City Nature Challenge](https://www.sdnhm.org/education/community-science/city-nature-challenge/) hosted by The San Diego Natural History Museum. Planning is ongoing for the event in April 2025.
 :::
 
 ## Sound Bytes Blog
+
 ::: {layout="[40,60]"}
 ![](images/blogSnp.jpg)
 
 In an effort to share our exciting research with the public, I had our lab develop a blog, ["Sound Bytes"](https://www.fisheries.noaa.gov/taxonomy/term/1000356091). This served not only as an opportunity to share the science conducted by our research lab, but it also provided our researchers, students, interns, and collaborators with a platform to share their role in our research. The blog was well received by the public, government policy managers, NOAA leadership, and fellow scientists. I wrote one article describing a partnership with local fisherman ['Fresh Catch- Lessons from A Fisherman'](https://www.fisheries.noaa.gov/science-blog/sound-bytes-fresh-catch-lessons-fisherman).
-
-::: 
+:::
 
 ## Data Nugget
+
 ::: {layout="[30,70]"}
 ![](images/DataNuggets.png)
 
 Collaborated with Melissa Kjelvik from Data Nuggets to develop a K-12 classroom activity based on our Adrift in the California Current research. Data Nuggets are activities that bring real scientific data into the classroom. The project, ['Eavesdropping on the Ocean'](https://datanuggets.org/2024/04/eavesdropping-on-the-ocean/) is free and publicly accessible to teachers via their website.
-
-::: 
+:::
 
 ## Phenomena Curriculum
+
 ::: {layout="[30,70]"}
 ![](images/sdcoe-logo-color.png)
 
 In 2020 we collaborated with San Diego Unified School District to host a remote workshop with K-12 teachers to develop curriculum that met NGSS standards and followed the Phenomena approach. Through this effort the teachers developed three levels of curricula: Elementary: [Dolphins have needs](https://drive.google.com/file/d/1VE2-jXCJet4iO_4bWywwW0dPtOK1BcLA/view) Middle school: [You can recognize different species by the sounds that they make](https://drive.google.com/file/d/1MsorXXkcHk8YNyHgldJ_-ApASLcEkoJy/view) High school: [Ocean noise pollution impacts marine mammals](https://drive.google.com/file/d/17qMPka0tTKjmF8jlAQD24QiWRzs3E9P4/view)
-
-::: 
+:::
 
 ## Previous Science Education Experiences
+
 ::: {layout="[40,60]"}
 ![](images/TAMUG_trawls2.jpg)
 
@@ -44,7 +46,7 @@ Prior to my work at NOAA Fisheries, I engaged in a wide range of science educati
 
 -   Marine Biology Instructor: Communities & Youth Programs, Texas A & M University, Galveston, TX
 
--   Teaching Assistant, Animal Ecology and Ichthyology Labs, Texas A & M University, College Station, T
+-   Teaching Assistant, Animal Ecology and Ichthyology Labs, Texas A & M University, College Station, TX
 
 -   Pre-College Instructor, Marine Science Consortium, Wallops Island, VA
 

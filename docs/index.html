@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -92,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Open Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="./pubs.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
@@ -122,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Shannon Rankin</h1>
 <p><strong>Passive Acoustic Research | Program Management | Science Education | Open Science </strong></p>
 <p>Wildlife Research Biologist and Lead of the Southwest Acoustic Ecology Lab at Southwest Fisheries Science Center (NOAA Fisheries). I use passive acoustic monitoring (sound!) as a tool to study dolphin and whale populations.</p>
-<p><a href="mailto:shannon.rankin@gmail.com"><i class="bi bi-envelope"></i></a> <a href="https://github.com/shannonrankin"><i class="bi bi-github"></i></a> <a href="https://scholar.google.com/citations?user=XC3_zOQAAAAJ&amp;hl=en">{{&lt; ai google-scholar &gt;}}</a> <a href="https://orcid.org/0000-0002-8405-5169">{{&lt; ai orcid &gt;}}</a> <a href="supplemental/Rankin_CV.pdf">{{&lt; ai cv &gt;}}</a></p>
+<p><a href="mailto:shannon.rankin@proton.me"><i class="bi bi-envelope"></i></a> <a href="https://github.com/shannonrankin"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/shannon-rankin-36468034b/"><i class="bi bi-linkedin"></i></a> <a href="https://scholar.google.com/citations?user=XC3_zOQAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i></a> <a href="https://orcid.org/0000-0002-8405-5169"><i class="ai  ai-orcid" aria-label="orcid"></i></a> <a href="supplemental/Rankin_CV.pdf"><i class="ai  ai-cv" aria-label="cv"></i></a></p>
 </section>
 <div class="g-col-1">
 <!-- Right margin -->
@@ -227,6 +229,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
