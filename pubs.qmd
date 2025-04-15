@@ -51,9 +51,9 @@ format_authors <- function(authors) {
 
 # Find path to PDF file
 find_pdf <- function(authors, year, title) {
-  if (year == "In press") {
-    return(NA)
-  }
+  # if (year == "In press") {
+  #   return(NA)
+  # }
   lead_author <- stringr::str_extract(authors[1], "[^ ]+$")
   title_short <- title |>
     stringr::str_replace_all("[^a-zA-Z \\-]", "") |>
@@ -71,7 +71,7 @@ create_pdf_link <- function(pdf) {
 }
 
 # Read bib file
-pubs <- bib2df::bib2df("bibliography.bib") |>
+pubs <- bib2df::bib2df("supplemental/bibliography.bib") |>
   # Retain relevant fields and format author list
   dplyr::transmute(
     authors = purrr::map_chr(AUTHOR, format_authors),
