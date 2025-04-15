@@ -2,7 +2,6 @@
 title: "Program Management"
 ---
 
-
 ## Adrift in the California Current
 
 ::: {layout="[40,60]"}
@@ -18,7 +17,7 @@ A highlight of the Adrift project was the Central Coast Collaborative Passive Ac
 ::: {layout="[40,60]"}
 ![](images/swfsc-mmtd-swae_fossa-rankin.png)
 
-FOSSA provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with [PAMGuard](pamguard.org) open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative.
+[FOSSA](https://www.fisheries.noaa.gov/west-coast/science-data/fossa) provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with [PAMGuard](pamguard.org) open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative.
 :::
 
 ## Vaquita Express

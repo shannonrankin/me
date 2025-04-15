@@ -5,11 +5,11 @@ about:
   image: images/P2200025.jpg
   links: 
     - icon: envelope
-      href: mailto:shannon.rankin@gmail.com
+      href: mailto:shannon.rankin@proton.me
     - icon: github
       href: https://github.com/shannonrankin
     - text: "{{< fa linkedin >}}"
-      href: https://www.linkedin.com/in/shannon-rankin-36468034b/
+      href: https://www.linkedin.com/in/shannon-rankin-36468034b
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=XC3_zOQAAAAJ&hl=en 
     - text: "{{< ai orcid >}}"

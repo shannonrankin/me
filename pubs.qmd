@@ -1,97 +1,143 @@
 ---
 title: "Publications"
-format:
-  html: 
-    css: custom
 ---
 
-This publications list is generated programmatically from .bib files. Expand the folded code to see how!
+## Peer-Reviewed Journal Publications
 
-```{r}
-#| output: asis
-#| code-fold: true
+**Rankin, S.**, Sakai, T., Archer, F., Barlow, J., Cholewiak, D., DeAngelis, A., Keating, J., Oleson, E., Simonis, A., Soldevilla, M. [Beaker Banter: a machine learning approach to acoustic classification of beaked whales.](https://doi.org/10.1016/j.ecoinf.2024.102511)Ecological Informatics 80:102511.
 
-# Format a publication's author list
-format_authors <- function(authors) {
-  # Split authors' names (First MI Last or First Last)
-  authors_split <- stringr::str_split(authors, " ")
-  # Format as Last, FI. or Last, FI.MI.
-  # Two-word last names indicated by underscore, must be post-processed
-  sub2 <- function(x, pattern, replacement) sub(pattern, replacement, x)
-  authors_formatted <- purrr::map_chr(
-    authors_split,
-    function(parts) {
-      if (length(parts) == 3) {
-        sprintf("%s, %s.%s.", 
-                parts[3], 
-                substr(parts[1], 1, 1), 
-                substr(parts[2], 1, 1))
-      } else {
-        sprintf("%s, %s.", 
-                parts[2], 
-                substr(parts[1], 1, 1))
-      }
-    }
-  ) |>
-    sub2("_", " ")
-  # Shorten long author lists
-  if (length(authors_formatted) > 7) {
-    authors_short <- c(authors_formatted[1:5], 
-                       "...", 
-                       authors_formatted[length(authors_formatted)])
-  } else {
-    authors_short <- authors_formatted
-  }
-  
-  # Make my name bold
-  authors_short[authors_short == "Rankin, S."] <- "<strong>Rankin, S.</strong>"
-  # Concatenate
-  paste(authors_short, collapse = ", ")
-}
+Shabangu, F., K. Stafford, K. Findlay, **S. Rankin**, D. Ljungblad, Y. Tsuda, L. Morse, C. Clark, H. Kato, and P. Ensor. 2024. [Overview of the IWC SOWER cruise circumpolar acoustic survey data and analysis of Antarctic blue whale calls within the dataset.](https://doi.org/10.47536/jcrm.v4i1.1040) J. Cetacean Research Management 4:21-41.
 
-# Find path to PDF file
-find_pdf <- function(authors, year, title) {
-  # if (year == "In press") {
-  #   return(NA)
-  # }
-  lead_author <- stringr::str_extract(authors[1], "[^ ]+$")
-  title_short <- title |>
-    stringr::str_replace_all("[^a-zA-Z \\-]", "") |>
-    substr(1, 30)
-  pdf_pattern <- glue::glue("{lead_author}.*- {year} - {title_short}")
-  dir(here::here("supplemental", "papers"), 
-      pattern = pdf_pattern,
-      ignore.case = TRUE) |>
-    (\(pdf) file.path("supplemental", "papers", pdf))()
-}
-create_pdf_link <- function(pdf) {
-  ifelse(is.na(pdf), 
-         "", 
-         glue::glue(" <a href=\"{pdf}\" target=\"_blank\">PDF</a>"))
-}
+Zahn, M. J., **S. Rankin**, J.L.K McCullough, Jens C. Koblitz, Frederick Archer, Marianne H. Rasmussen, and Kristin L. Laidre. "Acoustic differentiation and classification of wild belugas and narwhals using echolocation clicks." Scientific reports 11, no. 1 (2021): 1-16.
 
-# Read bib file
-pubs <- bib2df::bib2df("supplemental/bibliography.bib") |>
-  # Retain relevant fields and format author list
-  dplyr::transmute(
-    authors = purrr::map_chr(AUTHOR, format_authors),
-    title = TITLE,
-    journal = JOURNAL,
-    year = ifelse(YEAR == 9999, "In press", YEAR),
-    pdf = purrr::pmap_chr(list(AUTHOR, year, TITLE), find_pdf),
-    note = ifelse(is.na(NOTE), "", paste0(" ", NOTE))
-  ) |>
-  # Format in HTML. Markdown doesn't support reverse ordered lists??
-  dplyr::mutate(
-    pub_html = glue::glue("<li>{authors} ({year}). {title}. <em>{journal}</em>.{note}{create_pdf_link(pdf)}</li>")
-  ) |>
-  dplyr::pull(pub_html)
-# Reverse ordered list
-c(
-  "<ol reversed>",
-  pubs,
-  "</ol>"
-) |>
-  cat()
-```
+Barlow, J., J. Trickey, G. Schorr, **S. Rankin** & J. E. Moore. 2021. [Recommended snapshot length for acoustic point-transect surveys of intermittently available Cuvier's beaked whales](https://doi.org/10.1121/10.0005108). J. Acoustical Society of America 149:3830-3840.
 
+Greggor, A.L., Berger-Tal, O., Swaisgood, R., Cooke, S., DeVault, T., Fernandez-Juricic, E., Gienapp, A., Hall, S., Hostetter, C., Owen, M., **Rankin, S.**, Ruppert, K., Swaddle, J., Blumstein, D.T. 2020. [A framework for cultural change in conservation science and practice.](https://doi.org/10.3389/fcosc.2021.653056) Frontiers in Conservation Science (2).
+
+Griffiths, E. T., F. I. Archer, **S. Rankin**, J. L. Keating, E. Keen, J. Barlow, J. E. Moore. 2020. [Detection and classification of narrow banded high frequency echolocation clicks from drifting recorders](https://doi.org/10.1121/10.0001229). J. Acoustical Society of America 147(5):3511-322.
+
+**Rankin, S.**, Oedekoven, C. & Archer, F. 2020. [Mark recapture distance sampling: using acoustics to estimate the fraction of dolphins missed by observers during shipboard line-transect survey](https://doi.org/10.1007/s10651-020-00443-7)s. Environ Ecol Stat.
+
+Simonis, A.E., Forney, K., **Rankin, S.**, Ryan, J.P., Zhang, Y., DeVogelaere, A., Margolina, T., Joseph, J., Krumpel, A. and Baumann-Pickering, S., 2020. [Seal Bomb Noise as a Potential Threat to Monterey Bay Harbor Porpoise](https://doi.org/10.3389/fmars.2020.00142). Frontiers in Marine Science, 7, p.142.
+
+Archer, F., **S. Rankin**, K. Stafford, M. Castellote, J. Delarue. 2019. [Quantifying spatial and temporal variation of North Pacific fin whale (*Balaenoptera physalus*) acoustic behavio](https://doi.org/10.1111/mms.12640)r. Marine Mammal Science 2019.
+
+Thode, A. M., T. Sakai, J. Michalec, **S. Rankin**, M. S. Soldevilla, B. Martin, and K. H. Kim. 2019. Displaying bioacoustic directional information from sonobuoys using “azigrams”. Journal Acoustical Society of America 146:95-102.
+
+**Rankin, S.**, E. Archer, J. Keating, A. Curtis, J. Oswald, M. Oswald, and J. Barlow. 2017. Acoustic classification of delphinids in the California Current using whistles, echolocation clicks, and burst pulses. Mar. Mamm. Sci. 33:520-540.
+
+Miller, B.S., S. Wotherspoon, **S. Rankin**, S. Calderan, R. Leaper, and J. L. Keating. 2018. Estimating drift of directional sonobuoys from acoustic bearings. J. Acoust. Soc. Am. 143(1): EL25-EL30
+
+Soldevilla, M. S., S. Baumann-Pickering, D. Cholewiak, L. E. W. Hodge, E. M. Oleson, **S. Rankin**. 2017. Geographic variation in Risso’s dolphin echolocation click spectra. J. Acoust. Soc. Am. 142(2):599-617.
+
+Keating, J. L., J. Barlow and **S. Rankin**. 2016. Shifts in frequency-modulated pulses recorded during an encounter with Blainsville’s beaked whales (*Mesoplodon densirostri*s). J. Acoust. Soc. Am. 140(2):EL166-EL171.
+
+**Rankin, S.**, J. N. Oswald, A. E. Simonis, and J. Barlow. 2015. Vocalizations of the rough-toothed dolphin, *Steno bredanensis*, in the Pacific Ocean. Marine Mammal Science 31(4):1538-1548.
+
+Ou, H., Au, W. W., Van Parijs, S., Oleson, E. M., & **Rankin, S**. 2015. Discrimination of frequency-modulated Baleen whale downsweep calls with overlapping frequencies. J. Acoust. Soc. Am., 137(6):3024-3032.
+
+**Rankin, S.**, F. Archer, J. Barlow. 2013. Vocal activity of tropical dolphins is inhibited by the presence of killer whales, Orcinus orca. Mar. Mamm. Sci. 29(4): 679-690.
+
+Baumann-Pickering, S., M. A. McDonald, A. E. Simonis, A. Solsona Berga, K. P. B. Merkens, E. M. Oleson, M. A. Roch, S. M. Wiggins, **S. Rankin**, T. M. Yack, J. A. Hildebrand. 2013. Species-specific beaked whale echolocation signals. J. Acoust. Soc. Am. 134(3):2293-2301.
+
+Wade, P. R., A. DeRobertis, K. R. Hough, R. Booth, A. Kennedy, R. G. LeDuc, L. Munger, J. Napp, K. E. W. Sheldon, **S. Rankin**, O. Vasquez, and C. Wilson. 2011. Rare detections of North Pacific right whales in the Gulf of Alaska with observations of their potential prey. End. Sp. Res. 13:99-109.
+
+**Rankin, S.**, S. Baumann-Pickering, T. Yack, J. Barlow. 2011. First sounds recorded from Longman’s beaked whales, *Indopacetus pacificus*. J. Acoust. Soc. Am. 130(5):EL339-EL344.
+
+Gerrodette, T., B. L. Taylor, R. Swift, **S. Rankin**, A. M. Jaramillo-Legorreta, L. Rojas-Bracho. 2011. A combined visual and acoustic estimate of 2008 abundance, and change in abundance since 1997, for the vaquita, *Phocoena sinus*. Mar. Mamm. Sci. 27(2):E79-E100.
+
+VanParijs, S. M., C. W. Clark, R. S. Sousa-Lima, S. E. Parks, **S. Rankin**, D. Risch, and I. C. Van Opzeeland. 2009. Management and research applications of real-time and archival passive acoustic sensors over varying temporal and spatial scales. Mar. Ecol. Prog. Ser. 395:21-36.
+
+**Rankin, S.**, J.N. Oswald, and J. Barlow. 2008. Acoustic behavior of dolphins in the Pacific Ocean: Implications for using passive acoustic methods for population studies. Can. J. Acoustics, 36(1):88-92
+
+Oswald, J. N., **S. Rankin**, and J. Barlow. 2008. To whistle or not to whistle? Geographic variation in the whistling behavior of small odontocetes. Aq. Mamm. 34:288-302.
+
+**Rankin, S.** and J. Barlow. 2007. Sounds recorded in the presence of Blainsville’s beaked whales, *Mesoplodon densirostris*, near Hawai’i (L). J. Acoust. Soc. Am. 122(1):42-45.
+
+**Rankin, S.**, and J. Barlow. 2007. Vocalizations of the sei whale, *Balaenoptera borealis* off the Hawaiian Islands. Bioacoustics 16:137-145.
+
+**Rankin, S.**, T. F. Norris, M. A. Smultea, C. Oedekoven, A. M. Zoidis, E. Silva, and J. Rivers. 2007. A visual sighting and acoustic detections of minke whales, *Balaenoptera acutorostrata* (Cetacean: Balaenopteridae), in nearshore Hawaiian Waters. Pac. Sci. 61(3):395-398.
+
+**Rankin, S.**, J. Oswald, J. Barlow and M. Lammers. 2007. Patterned burst-pulse vocalizations of the northern right whale dolphin, *Lissodelphis borealis*. J. Acoust. Soc. Am. 121(2):1213-1218.
+
+Branch, T. A., K. M. Stafford, D. M. Palacios, C. Allison, J. L. Bannister, C. L. K. Burton, E. Cabrera, C. A. Carlson, B. Galletti Vernazzani, P. C. Gill, R. Hucke-Gaete, K. C. S. Jenner, M. –N. M. Jenner, K. Matsuoka, Y. A. Mikhalev, T. Miyashita, M. G. Morrice, S. Nishiwaki, V. J. Sturrock, D. Tormosov, R. C. Anderson, A. N. Baker, P. B. Best, P. Borsa, R. L. Brownell Jr., S. Childerhouse, K. P. Findlay, T. Gerrodette, A. D. Ilangakoon, M. Joergensen, B. Kahn, D. K. Ljungblad, B. Maughan, R. D. McCauley, S. McKay, T. F. Norris, Oman Whale and Dolphin Research Group, **S. Rankin**, F. Samaran, D. Thiele, K. Van Waerebeek, and R. M. Warneke. 2007. Past and present distribution, densities, and movements of blue whales *Balaenoptera musculus* in the Southern Hemisphere and northern Indian Ocean. Mamm. Rev. 37(2):116-175.
+
+Oswald, J.N., **S. Rankin**, and J. Barlow. 2007. First description of whistles of Pacific Fraser’s dolphins, *Lagenodelphis hosei*. Bioacoustics 16:99-111.
+
+Oswald, J.N., **S. Rankin**, J. Barlow, and M.O. Lammers. 2007. A tool for real-time acoustic species identification of delphinid whistles. J. Acoust. Soc. Am 122(1):587-595.
+
+Wade, P., M. P. Heide-Jørgensen, K. Sheldon, J. Barlow, J. Carretta, J. Durban, R. LeDuc, L. Munger, **S. Rankin**, A. Sauter, and C. Stinchcomb. 2006. Acoustic detection and satellite-tracking leads to discovery of rare concentration of endangered North Pacific right whales. Biol. Lett. 2:417-419.
+
+**Rankin, S.**, J. Barlow, and K. M. Stafford. 2006. Blue whale (*Balaenoptera musculus*) sightings and recordings south of the Aleutian Islands. Mar. Mamm. Sci. 22(3):708-713.
+
+**Rankin, S.** and J. Barlow. 2005. Source of the North Pacific “boing” sound attributed to minke whales. J. Acoust. Soc. Am. 118(5):3346-3351.
+
+**Rankin, S.**, D. Ljungblad, C. Clark, and H. Kato. 2005. Vocalisations of Antarctic blue whales, *Balaenoptera musculus intermedia*, recorded during the 2001/2002 and 2002/2003 IWC/SOWER circumpolar cruises, Area V, Antarctica. J. Cetacean res. Manage. 7(1):13-20.
+
+Oswald, J.N., **S. Rankin**, and J. Barlow. 2004. The effect of recording and analysis bandwidth on acoustic identification of delphinid species. J. Acoust. Soc. Am. 116(5):3178-3185.
+
+Oleson, E. M., J. Barlow, J. Gordon, **S. Rankin** and J. A. Hildebrand. 2003. Low frequency calls of Bryde’s whales. Mar. Mamm. Sci. 19(2):160-172.
+
+**Rankin. S.** 1999. The potential effects of sounds from seismic exploration on the distribution of cetaceans in the northern Gulf of Mexico. Masters Thesis. Texas A&M University, College Station. 64 pp.
+
+## Reports
+
+VanParijs, S., Berchok, C., Gedamke, J., Holt, M., Oleson, E., **Rankin, S**., Soldevilla, M., Van Hoeck, R., Wall Bell, C. 2024. IRA Passive Acoustic Monitoring Strategic Initiative Workshop Report. 20pp.
+
+Simmons, S.E., A. Benson, M. Biddle, G. Canonico, M. Chory, K. Desai, M. Edmondson, J. Gedamke, S.K. Hardy, M.E. Hunter, A. Kumar, L. Lorenzoni, B.D. Melzian, K. Mullin, K.M. Parsons, J. Price, **S. Rankin**, P.E. Rosel, H.R. Spence, S.M. Van Parijs, and M.J. Weise. 2022. Interagency Ocean Observation Committee (IOOC) Biology: Integrating Core to Essential Variables (Bio-ICE) Task Team Report for Marine Mammals. USGS Report. 68 pp.
+
+**Rankin, S.**, Archer, F. 2022 BANTER: A User’s Guide to Acoustic Classification. Available online via Github.
+
+**Rankin, S.**, B. Miller, J. Crance, T. Sakai, J. L. Keating. 2019. Distribution, Sonobuoy Acoustic Data Collection during Cetacean Surveys. U.S. Department of Commerce, NOAA Technical Memorandum NMFSSWFSC614.
+
+**Rankin, S.**, M. Castellote, J. Delarue, K. Stafford, F. Archer, B. Koot, M. Richlen, J. Thompson, J. Ford, R. Williams, and J. Morano. 2018. Methods for characterizing fin whale song notes for comparative studies of geographic variation in song. NOAA Technical Memorandum NMFS-SWFSC-592. 33 p. DOI: 10.7289/V5/TM-SWFSC-592
+
+**Rankin, S.**, T. Sakai, and B. Stevenson. 2018. Final Report: Passive acoustic density estimation of baleen whales: using sonobuoys to estimate whale density. Final Report to the U.S. Navy Living Marine Resources. 27 pp.
+
+**Rankin, S.**, J. Barlow, and J. Keating. 2016. Passive acoustic density estimates of baleen whales: Using sonobuoys to estimate call-rate correction factors. Report to the U.S. Navy Living Marine Resources. 19 pp.
+
+Barkley, Y., J. Barlow, **S. Rankin**, G. D’Spain, E. Oleson. 2016. Development and testing of two towed volumetric hydrophone array prototypes to improve localization accuracy during shipboard line-transect cetacean surveys. U.S. Dep. Comm., NOAA Tech Memo., NOAA-TM-NMFS-PIFSC-49, 36 pp.
+
+Griffiths, E., T., J. S. Ferguson, E. M. Oleson, and **S. Rankin**. 2015. Multi-bank power supply system for small towed hydrophone arrays. U.S. Department of Commerce, NOAA Tech. Memo. NMFS, NOAA-TM-NMFS-SWFSC-544, 13 p.
+
+Keating, J. L., J. N. Oswald, **S. Rankin**, and J. Barlow. 2015. Whistle classification in the California Current: A complete whistle classifier for a large geographic region with high species diversity. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-552. 15 pp.
+
+**Rankin, S.**, J. Barlow, Y. Barkley, R. Valtierra. 2013. A guide to constructing hydrophone arrays for passive acoustic data collection during NMFS shipboard cetacean surveys. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-511. 33pp.
+
+Henry, A., B. Taylor, L. Rojas-Bracho, **S. Rankin**, A. Jaramillo-Legoretta, T. Akamatsu, J. Barlow, T. Gerrodette, C. Hall, A. Jackson, J. Redfern, R. Swift, and N. Tregenza. 2012. Cruise report for the Vaquita Expedition in 2008 conducted aboard NOAA Ship *David Starr Jordan*, R/V *Koipai Yu-Xa* and the *Vaquita Express*. NOAA Tech. Memo. NMFS, NOAA-TM-NMFS-SWFSC-495. 52pp.
+
+Barkley, Y., J. N. Oswald, J. V. Carretta. **S. Ranki**n, A. Rudd, M. O. Lammers. 2011. Comparison of real-time and post-cruise acoustic species identification of dolphin whistles using ROCCA (Real-time Odontocete Call Classification Algorithm). NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-473. 29 pp.
+
+Jones, B., **S. Rankin**, and E. Archer. 2011. Fin whale acoustics as a tool to assess stock structure in the North Pacific. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-485. 23 pp.
+
+**Rankin, S.**, and J. Barlow. 2011. Acoustic recording system: a portable hardware system for shipboard passive acoustic monitoring of cetaceans using a towed hydrophone array. SWFSC Administrative Report, La Jolla, LJ-11-01.
+
+**Rankin, S.**, Y. Barkley, E. Oleson, J. Barlow. 2011. Sonobuoy report for Hawaiian Islands Cetacean Ecosystem and Assessment Survey (HICEAS) 2010. Report for U.S. Navy, 8pp.
+
+Jaramillo-Legorretta, A. M., B. Taylor, T. Gerrodette, **S. Rankin**, R. Swift, L. Rojas-Bracho. 2010. Report of Vaquita Expedition 2008 and current conservation actions. IWC Report SC-61-SM23.
+
+**Rankin, S.**, R. Swift, D. Risch, B. Taylor, L. Rojas-Bracho, A. Jaramillo-Legorreta, J. Gordon, T. Akamatsu, S. Kimura. 2009. Vaquita Expedition 2008: Preliminary results from a towed hydrophone survey of the vaquita from the *Vaquita Express* in the Upper Gulf of California. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-439. 38p.
+
+Yack, T. M., J. P. Barlow, **S. Rankin**, D. Gillespie. 2009. Testing and validation of automated whistle and click detectors using PamGuard 1.0. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-443. 55pp.
+
+**Rankin, S.**, J. Barlow, and J. Oswald. 2008. An assessment of the accuracy and precision of localization of a stationary sound source using a two-element towed hydrophone array. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-416. 29pp.
+
+**Rankin, S.**, J. Barlow, J. Oswald, and L. Ballance. 2008. Acoustic studies of marine mammals during seven years of combined visual and acoustic line-transect surveys for cetaceans in the Eastern and Central Pacific Ocean. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-429. 58p.
+
+Barlow, J., **S. Rankin**, A. Jackson, and A. Henry. 2008. Marine mammal data collected during the Pacific Islands Cetacean and Ecosystem Assessment Survey (PICEAS) conducted aboard the NOAA ship *McArthur II*, July – December 2005. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-420. 27 pp.
+
+Barlow, J., **S. Rankin**, and S. Dawson. 2008. A guide to constructing hydrophones and hydrophone arrays for monitoring marine mammal vocalizations. NOAA Tech. Memo. NOAA-NMFS-TM-417. 19pp.
+
+Jackson, A., T. Gerrodette, S. Chivers, M. Lynn, **S. Rankin**, S. Mesnick. 2008. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard NOAA ships *David Starr Jordan* and *McArthur II*, July 28 – December 7, 2006. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-421. 45 pp.
+
+Barlow, J. and **S. Rankin**. 2007. False killer whale abundance and density: preliminary estimates for the PICEAS study area south of Hawaii and new estimates for the US EEZ around Hawaii. Southwest Fisheries Science Center (SWFSC) Administrative Report LJ-07-02. 15pp.
+
+Norris, T. F., M. A. Smultea, A. M. Zoidis, **S. Rankin**, C. Loftus, C. Oedekoven, J. L. Hayes, and E. Silva. 2005. A preliminary acoustic-visual survey of cetaceans in deep waters around Ni’ihua, Kauai’i, and portions of O’ahu, Hawai’i from aboard the R/V *Dariabar*, February 2005. Report prepared by: Cetos Research Organization, Bar Harbor, ME., under contract #2057sa05-F to Geo-Marine, Inc. for NAVFAC Pacific.
+
+Appler, J., J. Barlow, and **S. Rankin**. 2004. Marine mammal data collected during the Oregon, California, & Washington Line-Transect Expedition (ORCAWALE) conducted aboard the NOAA Ships *McArthur* and *David Starr Jordan*, July-December 2001. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-359. 32pp.
+
+Barlow, J., **S. Rankin**, E. Zele, and J. Appler. 2004. Marine mammal data collected during the Hawaiian Islands Cetacean and Ecosystem Assessment Survey (HICEAS) conducted aboard the NOAA ships *McArthur* and *David Starr Jordan*, July-December 2002. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-362. 39pp
+
+Jackson, A., T. Gerrodette, S. Chivers, M. Lynn, P. Olson, and **S. Rankin**. 2004. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard the NOAA ships *McArthur II* and *David Starr Jorda*n, July 29 – December 10, 2003. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-366. 98 pp.
+
+Kinzey, D., T. Gerrodette, A. Dizon, W. Perryman, P. Olson, and **S. Rankin**. 2001. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard the NOAA ships *McArthur* and *David Starr Jordan*, July 28-December 9, 2000. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-303. 100pp.
