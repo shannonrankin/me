@@ -34,6 +34,17 @@ Collaborated with Melissa Kjelvik from Data Nuggets to develop a K-12 classroom 
 In 2020 we collaborated with San Diego Unified School District to host a remote workshop with K-12 teachers to develop curriculum that met NGSS standards and followed the Phenomena approach. Through this effort the teachers developed three levels of curricula: Elementary: [Dolphins have needs](https://drive.google.com/file/d/1VE2-jXCJet4iO_4bWywwW0dPtOK1BcLA/view) Middle school: [You can recognize different species by the sounds that they make](https://drive.google.com/file/d/1MsorXXkcHk8YNyHgldJ_-ApASLcEkoJy/view) High school: [Ocean noise pollution impacts marine mammals](https://drive.google.com/file/d/17qMPka0tTKjmF8jlAQD24QiWRzs3E9P4/view)
 :::
 
+## Dolphin Speak
+
+[Dolphin Speak](https://dolphinspeak.wp.st-andrews.ac.uk/) is a series of videos and associated educational materials on the topic of how scientists use sound to study dolphins.  As a part of this effort, I collaborated with Dr. Julie Oswald at University of St. Andrews to create two 'Dolphin Speak' videos related to my research using sound to study dolphins. These video interviews were led by kids, for kids:
+
+![dolphinSpeak_LookingAtSound.png]  {% include youtube.html id="https://youtu.be/4l7tF9DhzBw?feature=shared"%}
+
+[![Dolphin Speak: Studying Wild Dolphins](dolphinSpeak_StudyingWildDolphins.png)](https://youtube.html/watch?v=mf9fOj6KiOk&list=PL8-OXI7OLdVof0zQPU-2ipVGvbQ6S0Ngc&index=2)
+
+
+
+
 ## Previous Science Education Experiences
 
 ::: {layout="[40,60]"}
