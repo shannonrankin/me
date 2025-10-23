@@ -18,28 +18,28 @@
     "href": "research.html#adrift-in-the-california-current",
     "title": "Research",
     "section": "Adrift in the California Current",
-    "text": "Adrift in the California Current\n\n\n\n\n\n\n\n\n\nThe ADRIFT in the California Current Project (‘Adrift’) used drifting acoustic recorders deployed offshore the U.S. West Coast, combined with more complete analysis of archived data from previous drifting acoustic recorder surveys, to assess the distribution of marine mammals and to characterize the marine soundscape. This study was funded, in part, by the U.S. Department of the Interior, Bureau of Ocean Energy Management (BOEM), Environmental Studies Program, Washington, DC, through Interagency Agreement Number G14M20PG00013 with the Southwest Fisheries Science Center (2020 - 2024)."
+    "text": "Adrift in the California Current\n\n\n\n\n\n\nThe ADRIFT in the California Current Project (‘Adrift’) used drifting acoustic recorders deployed offshore the U.S. West Coast, combined with more complete analysis of archived data from previous drifting acoustic recorder surveys, to assess the distribution of marine mammals and to characterize the marine soundscape. This study was funded, in part, by the U.S. Department of the Interior, Bureau of Ocean Energy Management (BOEM), Environmental Studies Program, Washington, DC, through Interagency Agreement Number G14M20PG00013 with the Southwest Fisheries Science Center (2020 - 2024)."
   },
   {
     "objectID": "research.html#advanced-methods-for-passive-acoustic-monitoring-for-marine-mammals",
     "href": "research.html#advanced-methods-for-passive-acoustic-monitoring-for-marine-mammals",
     "title": "Research",
     "section": "Advanced Methods for Passive Acoustic Monitoring for Marine Mammals",
-    "text": "Advanced Methods for Passive Acoustic Monitoring for Marine Mammals\n\n\n\n\n\n\n\n\n\nI have led several efforts to develop and implement advanced methods for acoustical monitoring of marine mammals, including machine learning acoustic classification of marine mammals (Rankin et al. 2017, Rankin et al. 2024) and acoustic mark-recapture distance sampling to assess fraction of dolphins missed by visual observers (Rankin et al. 2020). In addition, I led efforts to develop Free and Open Source Software for Acoustics (FOSSA) collaborated on a large number of additional projects and publications outlined in the publications."
+    "text": "Advanced Methods for Passive Acoustic Monitoring for Marine Mammals\n\n\n\n\n\n\nI have led several efforts to develop and implement advanced methods for acoustical monitoring of marine mammals, including machine learning acoustic classification of marine mammals (Rankin et al. 2017, Rankin et al. 2024) and acoustic mark-recapture distance sampling to assess fraction of dolphins missed by visual observers (Rankin et al. 2020). In addition, I led efforts to develop Free and Open Source Software for Acoustics (FOSSA) collaborated on a large number of additional projects and publications outlined in the publications."
   },
   {
     "objectID": "research.html#acoustic-ecology",
     "href": "research.html#acoustic-ecology",
     "title": "Research",
     "section": "Acoustic Ecology",
-    "text": "Acoustic Ecology\n\n\n\n\n\n\n\n\n\nDuring my time at NOAA I was the lead acoustician on our shipboard line-transect surveys that typically ranged from late July to early December (2000 - 2007). These data provided an opportunity to examine the vocal behavior of dolphins in the Pacific Ocean (Rankin et al. 2008) and a study examining how the vocal behavior of dolphins in the tropical Pacific was inhibited by the presence of killer whales (Rankin et al. 2013).\n\n\n\nIn addition, I have collaborated on a wide array of marine mammal ecology publications ranging from Vaquita to blue whales to North Pacific right whales."
+    "text": "Acoustic Ecology\n\n\n\n\n\n\nDuring my time at NOAA I was the lead acoustician on our shipboard line-transect surveys that typically ranged from late July to early December (2000 - 2007). These data provided an opportunity to examine the vocal behavior of dolphins in the Pacific Ocean (Rankin et al. 2008) and a study examining how the vocal behavior of dolphins in the tropical Pacific was inhibited by the presence of killer whales (Rankin et al. 2013).\n\n\n\nIn addition, I have collaborated on a wide array of marine mammal ecology publications ranging from Vaquita to blue whales to North Pacific right whales."
   },
   {
     "objectID": "research.html#marine-mammal-acoustics",
     "href": "research.html#marine-mammal-acoustics",
     "title": "Research",
     "section": "Marine Mammal Acoustics",
-    "text": "Marine Mammal Acoustics\n\n\n\n\n\n\n\n\n\nIn order to use acoustics as a tool for ecological or population level questions, we must first describe attribute recorded sounds to known species. I’ve had the opportunity to study a wide number of species, and I’ve published descriptions of the vocal behavior of many species, including: minke whales, antarctic blue whales, northern right whale dolphins, rough-toothed dolphins, Longman’s beaked whales, and North Pacific sei whales.\n\n\n\nI have maintained a selection of sounds for public use on our Southwest Acoustic Ecology SoundCloud site."
+    "text": "Marine Mammal Acoustics\n\n\n\n\n\n\nIn order to use acoustics as a tool for ecological or population level questions, we must first describe attribute recorded sounds to known species. I’ve had the opportunity to study a wide number of species, and I’ve published descriptions of the vocal behavior of many species, including: minke whales, antarctic blue whales, northern right whale dolphins, rough-toothed dolphins, Longman’s beaked whales, and North Pacific sei whales.\n\n\n\nI have maintained a selection of sounds for public use on our Southwest Acoustic Ecology SoundCloud site."
   },
   {
     "objectID": "research.html#additional-research-efforts",
@@ -67,14 +67,14 @@
     "href": "programMgmt.html#free-and-open-science-software-for-acoustics-fossa",
     "title": "Program Management",
     "section": "Free and Open Science Software for Acoustics (FOSSA)",
-    "text": "Free and Open Science Software for Acoustics (FOSSA)\n\n\n\n\n\n\n\n\n\nFOSSA provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with PAMGuard open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative."
+    "text": "Free and Open Science Software for Acoustics (FOSSA)\n\n\n\n\n\n\nFOSSA provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with PAMGuard open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative."
   },
   {
     "objectID": "programMgmt.html#vaquita-express",
     "href": "programMgmt.html#vaquita-express",
     "title": "Program Management",
     "section": "Vaquita Express",
-    "text": "Vaquita Express\n\n\n\n\n\n\n\n\n\nAs part of an international collaboration to study the populations of the endangered Vaquita in the northern Gulf of California, I led an effort to use a towed array from a relatively small and quiet vessels (trimaran sailboat). This effort resulted in a final report and results were included in a scientific publication. Ultimately, it was found that there was insufficient statistical power to use towed arrays for monitoring the populations of these rare cetaceans, and alternative PAM platforms were used on subsequent surveys."
+    "text": "Vaquita Express\n\n\n\n\n\n\nAs part of an international collaboration to study the populations of the endangered Vaquita in the northern Gulf of California, I led an effort to use a towed array from a relatively small and quiet vessels (trimaran sailboat). This effort resulted in a final report and results were included in a scientific publication. Ultimately, it was found that there was insufficient statistical power to use towed arrays for monitoring the populations of these rare cetaceans, and alternative PAM platforms were used on subsequent surveys."
   },
   {
     "objectID": "about.html",
@@ -88,7 +88,7 @@
     "href": "education.html",
     "title": "Science Education",
     "section": "",
-    "text": "As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by SciStarter) and participate in the City Nature Challenge hosted by The San Diego Natural History Museum. Planning is ongoing for the event in April 2025."
+    "text": "In an effort to share our exciting research with the public, I had our lab develop a blog, “Sound Bytes”. This served not only as an opportunity to share the science conducted by our research lab, but it also provided our researchers, students, interns, and collaborators with a platform to share their role in our research. The blog was well received by the public, government policy managers, NOAA leadership, and fellow scientists. I wrote one article describing a partnership with local fisherman ‘Fresh Catch- Lessons from A Fisherman’."
   },
   {
     "objectID": "education.html#scistarter-ambassador",
@@ -101,29 +101,29 @@
     "objectID": "education.html#sound-bytes-blog",
     "href": "education.html#sound-bytes-blog",
     "title": "Science Education",
-    "section": "Sound Bytes Blog",
-    "text": "Sound Bytes Blog\n\n\n\n\n\n\n\n\n\nIn an effort to share our exciting research with the public, I had our lab develop a blog, “Sound Bytes”. This served not only as an opportunity to share the science conducted by our research lab, but it also provided our researchers, students, interns, and collaborators with a platform to share their role in our research. The blog was well received by the public, government policy managers, NOAA leadership, and fellow scientists. I wrote one article describing a partnership with local fisherman ‘Fresh Catch- Lessons from A Fisherman’."
+    "section": "",
+    "text": "In an effort to share our exciting research with the public, I had our lab develop a blog, “Sound Bytes”. This served not only as an opportunity to share the science conducted by our research lab, but it also provided our researchers, students, interns, and collaborators with a platform to share their role in our research. The blog was well received by the public, government policy managers, NOAA leadership, and fellow scientists. I wrote one article describing a partnership with local fisherman ‘Fresh Catch- Lessons from A Fisherman’."
   },
   {
     "objectID": "education.html#data-nugget",
     "href": "education.html#data-nugget",
     "title": "Science Education",
     "section": "Data Nugget",
-    "text": "Data Nugget\n\n\n\n\n\n\n\n\n\nCollaborated with Melissa Kjelvik from Data Nuggets to develop a K-12 classroom activity based on our Adrift in the California Current research. Data Nuggets are activities that bring real scientific data into the classroom. The project, ‘Eavesdropping on the Ocean’ is free and publicly accessible to teachers via their website."
+    "text": "Data Nugget\n\n\n\n\n\n\nCollaborated with Melissa Kjelvik from Data Nuggets to develop a K-12 classroom activity based on our Adrift in the California Current research. Data Nuggets are activities that bring real scientific data into the classroom. The project, ‘Eavesdropping on the Ocean’ is free and publicly accessible to teachers via their website."
   },
   {
     "objectID": "education.html#phenomena-curriculum",
     "href": "education.html#phenomena-curriculum",
     "title": "Science Education",
     "section": "Phenomena Curriculum",
-    "text": "Phenomena Curriculum\n\n\n\n\n\n\n\n\n\nIn 2020 we collaborated with San Diego Unified School District to host a remote workshop with K-12 teachers to develop curriculum that met NGSS standards and followed the Phenomena approach. Through this effort the teachers developed three levels of curricula: Elementary: Dolphins have needs Middle school: You can recognize different species by the sounds that they make High school: Ocean noise pollution impacts marine mammals"
+    "text": "Phenomena Curriculum\n\n\n\n\n\n\nIn 2020 we collaborated with San Diego Unified School District to host a remote workshop with K-12 teachers to develop curriculum that met NGSS standards and followed the Phenomena approach. Through this effort the teachers developed three levels of curricula: Elementary: Dolphins have needs Middle school: You can recognize different species by the sounds that they make High school: Ocean noise pollution impacts marine mammals"
   },
   {
     "objectID": "education.html#previous-science-education-experiences",
     "href": "education.html#previous-science-education-experiences",
     "title": "Science Education",
     "section": "Previous Science Education Experiences",
-    "text": "Previous Science Education Experiences\n\n\n\n\n\n\n\n\n\nPrior to my work at NOAA Fisheries, I engaged in a wide range of science education jobs, including:\n\n\n\n\nSummer Upward Bound Biology Instructor, University of California, San Diego, CA\nMarine Biology Instructor: Communities & Youth Programs, Texas A & M University, Galveston, TX\nTeaching Assistant, Animal Ecology and Ichthyology Labs, Texas A & M University, College Station, TX\nPre-College Instructor, Marine Science Consortium, Wallops Island, VA\nTouch Tank Interpreter, The Sea Center, Santa Barbara, CA"
+    "text": "Previous Science Education Experiences\n\n\n\n\n\n\nPrior to my work at NOAA Fisheries, I engaged in a wide range of science education jobs, including:\n\n\n\n\nSummer Upward Bound Biology Instructor, University of California, San Diego, CA\nMarine Biology Instructor: Communities & Youth Programs, Texas A & M University, Galveston, TX\nTeaching Assistant, Animal Ecology and Ichthyology Labs, Texas A & M University, College Station, TX\nPre-College Instructor, Marine Science Consortium, Wallops Island, VA\nTouch Tank Interpreter, The Sea Center, Santa Barbara, CA"
   },
   {
     "objectID": "openScience.html",
@@ -144,28 +144,28 @@
     "href": "openScience.html#openscapes-mentor",
     "title": "Open Science",
     "section": "Openscapes Mentor",
-    "text": "Openscapes Mentor\n\n\n\n\n\n\n\n\n\nAs an Openscapes Mentor, I am working with the Openscapes community to learn about Open Science tools and to further develop ‘soft skills’ necessary for effective mentorship. Methods learned are directly applied to our NOAA Fisheries PAM-SI Open Science initative (above)."
+    "text": "Openscapes Mentor\n\n\n\n\n\n\nAs an Openscapes Mentor, I am working with the Openscapes community to learn about Open Science tools and to further develop ‘soft skills’ necessary for effective mentorship. Methods learned are directly applied to our NOAA Fisheries PAM-SI Open Science initative (above)."
   },
   {
     "objectID": "openScience.html#southwest-acoustic-ecology-lab",
     "href": "openScience.html#southwest-acoustic-ecology-lab",
     "title": "Open Science",
     "section": "Southwest Acoustic Ecology Lab",
-    "text": "Southwest Acoustic Ecology Lab\n\n\n\n\n\n\n\n\n\nIn 2021 we began to transition our Southwest Acoustic Ecology lab to an Open Science Framework. This effort included developing:\n\n\n\n\n\nSAEL Lab Manual that serves as a landing page for all the work we do\nSAEL Github Organization to retain repositories for our ongoing work\nWeekly Co-working meetings to provide a focused time for working together."
+    "text": "Southwest Acoustic Ecology Lab\n\n\n\n\n\n\nIn 2021 we began to transition our Southwest Acoustic Ecology lab to an Open Science Framework. This effort included developing:\n\n\n\n\n\nSAEL Lab Manual that serves as a landing page for all the work we do\nSAEL Github Organization to retain repositories for our ongoing work\nWeekly Co-working meetings to provide a focused time for working together."
   },
   {
     "objectID": "openScience.html#free-and-open-science-software-for-acoustics-fossa",
     "href": "openScience.html#free-and-open-science-software-for-acoustics-fossa",
     "title": "Open Science",
     "section": "Free and Open Science Software for Acoustics (FOSSA)",
-    "text": "Free and Open Science Software for Acoustics (FOSSA)\n\n\n\n\n\n\n\n\n\nFOSSA provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with PAMGuard open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative.\n\n\n\n\nPAMPAL- functions to extract acoustic metadata, integrate ancillary data, and generate output for downstream analyses. PAMpal currently works with acoustic detections generated within PAMguard software. Funding by NOAA’s Advanced Science and Technology Working Group, programming development by Taiki Sakai.\nBANTER- an event-based classification scheme incorporating multiple detection or call types (see Rankin et al. 2017 & BANTER Guidelines). Funding by NOAA’s Ocean Acoustics Program and NOAA’s Advanced Science and Technology Working Group, programming by Eric Archer.\nPAMScapes- tools relevant to analysis of marine soundscape data. Funding by NOAA’s Ocean Acoustics Program, programming development by Taiki Sakai."
+    "text": "Free and Open Science Software for Acoustics (FOSSA)\n\n\n\n\n\n\nFOSSA provides a streamlined approach to analyzing passive acoustic data using open source software (R programming language). While I lead each of these efforts, all the programming was performed by team members. Combined with PAMGuard open source software, these packages together provide an end-to-end open source workflow for efficient and standardized processing of acoustic data. These efforts are now being adopted and expanded nationally as part of the NOAA PAM-Strategic Initiative.\n\n\n\n\nPAMPAL- functions to extract acoustic metadata, integrate ancillary data, and generate output for downstream analyses. PAMpal currently works with acoustic detections generated within PAMguard software. Funding by NOAA’s Advanced Science and Technology Working Group, programming development by Taiki Sakai.\nBANTER- an event-based classification scheme incorporating multiple detection or call types (see Rankin et al. 2017 & BANTER Guidelines). Funding by NOAA’s Ocean Acoustics Program and NOAA’s Advanced Science and Technology Working Group, programming by Eric Archer.\nPAMScapes- tools relevant to analysis of marine soundscape data. Funding by NOAA’s Ocean Acoustics Program, programming development by Taiki Sakai."
   },
   {
     "objectID": "openScience.html#bioacoustics-stack-exchange",
     "href": "openScience.html#bioacoustics-stack-exchange",
     "title": "Open Science",
     "section": "Bioacoustics Stack Exchange",
-    "text": "Bioacoustics Stack Exchange\n\n\n\n\n\n\n\n\n\nStack Exchange is a crowd-sourced Question & Answer site where information is archived and publicly accessible. In 2022 I led an effort to develop a Bioacoustics Stack Exchange site to provide a place for people to share information and empower scientists and practitioners from underserved communities to use good science. The proposal process required several months of dedication and required global outreach to scientists in the field of bioacoustics.\n\n\n\nThe Bioacoustics Stack Exchange site is now a thriving portal with over 2,500 users, and links to questions on this site are top responses in relevant google searches."
+    "text": "Bioacoustics Stack Exchange\n\n\n\n\n\n\nStack Exchange is a crowd-sourced Question & Answer site where information is archived and publicly accessible. In 2022 I led an effort to develop a Bioacoustics Stack Exchange site to provide a place for people to share information and empower scientists and practitioners from underserved communities to use good science. The proposal process required several months of dedication and required global outreach to scientists in the field of bioacoustics.\n\n\n\nThe Bioacoustics Stack Exchange site is now a thriving portal with over 2,500 users, and links to questions on this site are top responses in relevant google searches."
   },
   {
     "objectID": "openScience.html#zotero-group-libraries",
@@ -179,7 +179,7 @@
     "href": "openScience.html#open-hardware",
     "title": "Open Science",
     "section": "Open Hardware",
-    "text": "Open Hardware\n\n\n\n\n\n\n\n\n\nMy predecessor at SWFSC, Jay Barlow, had led the development of towed hydrophone arrays for use on shipboard surveys. As the need for using this equipment increased, I saw a need to expand our approach to allow for expanding the modularity of these developments and sharing these capabilities with the wider scientific community.\n\n\n\nWith funding from NOAA’s Ocean Acoustics Program, I hosted a workshop to develop open access tutorials and share these methods with our colleagues during a workshop hosted by SWFSC. The tutorial was made available through NOAA (A guide to constructing hydrophone arrays for passive acoustic data collection during NMFS shipboard Cetacean surveys), and this Blog by our Pacific Islands’ colleagues outlines the value of this workshop."
+    "text": "Open Hardware\n\n\n\n\n\n\nMy predecessor at SWFSC, Jay Barlow, had led the development of towed hydrophone arrays for use on shipboard surveys. As the need for using this equipment increased, I saw a need to expand our approach to allow for expanding the modularity of these developments and sharing these capabilities with the wider scientific community.\n\n\n\nWith funding from NOAA’s Ocean Acoustics Program, I hosted a workshop to develop open access tutorials and share these methods with our colleagues during a workshop hosted by SWFSC. The tutorial was made available through NOAA (A guide to constructing hydrophone arrays for passive acoustic data collection during NMFS shipboard Cetacean surveys), and this Blog by our Pacific Islands’ colleagues outlines the value of this workshop."
   },
   {
     "objectID": "pubs.html",
@@ -201,5 +201,26 @@
     "title": "Publications",
     "section": "Reports",
     "text": "Reports\nVanParijs, S., Berchok, C., Gedamke, J., Holt, M., Oleson, E., Rankin, S., Soldevilla, M., Van Hoeck, R., Wall Bell, C. 2024. IRA Passive Acoustic Monitoring Strategic Initiative Workshop Report. 20pp.\nSimmons, S.E., A. Benson, M. Biddle, G. Canonico, M. Chory, K. Desai, M. Edmondson, J. Gedamke, S.K. Hardy, M.E. Hunter, A. Kumar, L. Lorenzoni, B.D. Melzian, K. Mullin, K.M. Parsons, J. Price, S. Rankin, P.E. Rosel, H.R. Spence, S.M. Van Parijs, and M.J. Weise. 2022. Interagency Ocean Observation Committee (IOOC) Biology: Integrating Core to Essential Variables (Bio-ICE) Task Team Report for Marine Mammals. USGS Report. 68 pp.\nRankin, S., Archer, F. 2022 BANTER: A User’s Guide to Acoustic Classification. Available online via Github.\nRankin, S., B. Miller, J. Crance, T. Sakai, J. L. Keating. 2019. Distribution, Sonobuoy Acoustic Data Collection during Cetacean Surveys. U.S. Department of Commerce, NOAA Technical Memorandum NMFSSWFSC614.\nRankin, S., M. Castellote, J. Delarue, K. Stafford, F. Archer, B. Koot, M. Richlen, J. Thompson, J. Ford, R. Williams, and J. Morano. 2018. Methods for characterizing fin whale song notes for comparative studies of geographic variation in song. NOAA Technical Memorandum NMFS-SWFSC-592. 33 p. DOI: 10.7289/V5/TM-SWFSC-592\nRankin, S., T. Sakai, and B. Stevenson. 2018. Final Report: Passive acoustic density estimation of baleen whales: using sonobuoys to estimate whale density. Final Report to the U.S. Navy Living Marine Resources. 27 pp.\nRankin, S., J. Barlow, and J. Keating. 2016. Passive acoustic density estimates of baleen whales: Using sonobuoys to estimate call-rate correction factors. Report to the U.S. Navy Living Marine Resources. 19 pp.\nBarkley, Y., J. Barlow, S. Rankin, G. D’Spain, E. Oleson. 2016. Development and testing of two towed volumetric hydrophone array prototypes to improve localization accuracy during shipboard line-transect cetacean surveys. U.S. Dep. Comm., NOAA Tech Memo., NOAA-TM-NMFS-PIFSC-49, 36 pp.\nGriffiths, E., T., J. S. Ferguson, E. M. Oleson, and S. Rankin. 2015. Multi-bank power supply system for small towed hydrophone arrays. U.S. Department of Commerce, NOAA Tech. Memo. NMFS, NOAA-TM-NMFS-SWFSC-544, 13 p.\nKeating, J. L., J. N. Oswald, S. Rankin, and J. Barlow. 2015. Whistle classification in the California Current: A complete whistle classifier for a large geographic region with high species diversity. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-552. 15 pp.\nRankin, S., J. Barlow, Y. Barkley, R. Valtierra. 2013. A guide to constructing hydrophone arrays for passive acoustic data collection during NMFS shipboard cetacean surveys. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-511. 33pp.\nHenry, A., B. Taylor, L. Rojas-Bracho, S. Rankin, A. Jaramillo-Legoretta, T. Akamatsu, J. Barlow, T. Gerrodette, C. Hall, A. Jackson, J. Redfern, R. Swift, and N. Tregenza. 2012. Cruise report for the Vaquita Expedition in 2008 conducted aboard NOAA Ship David Starr Jordan, R/V Koipai Yu-Xa and the Vaquita Express. NOAA Tech. Memo. NMFS, NOAA-TM-NMFS-SWFSC-495. 52pp.\nBarkley, Y., J. N. Oswald, J. V. Carretta. S. Rankin, A. Rudd, M. O. Lammers. 2011. Comparison of real-time and post-cruise acoustic species identification of dolphin whistles using ROCCA (Real-time Odontocete Call Classification Algorithm). NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-473. 29 pp.\nJones, B., S. Rankin, and E. Archer. 2011. Fin whale acoustics as a tool to assess stock structure in the North Pacific. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-485. 23 pp.\nRankin, S., and J. Barlow. 2011. Acoustic recording system: a portable hardware system for shipboard passive acoustic monitoring of cetaceans using a towed hydrophone array. SWFSC Administrative Report, La Jolla, LJ-11-01.\nRankin, S., Y. Barkley, E. Oleson, J. Barlow. 2011. Sonobuoy report for Hawaiian Islands Cetacean Ecosystem and Assessment Survey (HICEAS) 2010. Report for U.S. Navy, 8pp.\nJaramillo-Legorretta, A. M., B. Taylor, T. Gerrodette, S. Rankin, R. Swift, L. Rojas-Bracho. 2010. Report of Vaquita Expedition 2008 and current conservation actions. IWC Report SC-61-SM23.\nRankin, S., R. Swift, D. Risch, B. Taylor, L. Rojas-Bracho, A. Jaramillo-Legorreta, J. Gordon, T. Akamatsu, S. Kimura. 2009. Vaquita Expedition 2008: Preliminary results from a towed hydrophone survey of the vaquita from the Vaquita Express in the Upper Gulf of California. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-439. 38p.\nYack, T. M., J. P. Barlow, S. Rankin, D. Gillespie. 2009. Testing and validation of automated whistle and click detectors using PamGuard 1.0. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-443. 55pp.\nRankin, S., J. Barlow, and J. Oswald. 2008. An assessment of the accuracy and precision of localization of a stationary sound source using a two-element towed hydrophone array. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-416. 29pp.\nRankin, S., J. Barlow, J. Oswald, and L. Ballance. 2008. Acoustic studies of marine mammals during seven years of combined visual and acoustic line-transect surveys for cetaceans in the Eastern and Central Pacific Ocean. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-429. 58p.\nBarlow, J., S. Rankin, A. Jackson, and A. Henry. 2008. Marine mammal data collected during the Pacific Islands Cetacean and Ecosystem Assessment Survey (PICEAS) conducted aboard the NOAA ship McArthur II, July – December 2005. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-420. 27 pp.\nBarlow, J., S. Rankin, and S. Dawson. 2008. A guide to constructing hydrophones and hydrophone arrays for monitoring marine mammal vocalizations. NOAA Tech. Memo. NOAA-NMFS-TM-417. 19pp.\nJackson, A., T. Gerrodette, S. Chivers, M. Lynn, S. Rankin, S. Mesnick. 2008. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard NOAA ships David Starr Jordan and McArthur II, July 28 – December 7, 2006. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-421. 45 pp.\nBarlow, J. and S. Rankin. 2007. False killer whale abundance and density: preliminary estimates for the PICEAS study area south of Hawaii and new estimates for the US EEZ around Hawaii. Southwest Fisheries Science Center (SWFSC) Administrative Report LJ-07-02. 15pp.\nNorris, T. F., M. A. Smultea, A. M. Zoidis, S. Rankin, C. Loftus, C. Oedekoven, J. L. Hayes, and E. Silva. 2005. A preliminary acoustic-visual survey of cetaceans in deep waters around Ni’ihua, Kauai’i, and portions of O’ahu, Hawai’i from aboard the R/V Dariabar, February 2005. Report prepared by: Cetos Research Organization, Bar Harbor, ME., under contract #2057sa05-F to Geo-Marine, Inc. for NAVFAC Pacific.\nAppler, J., J. Barlow, and S. Rankin. 2004. Marine mammal data collected during the Oregon, California, & Washington Line-Transect Expedition (ORCAWALE) conducted aboard the NOAA Ships McArthur and David Starr Jordan, July-December 2001. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-359. 32pp.\nBarlow, J., S. Rankin, E. Zele, and J. Appler. 2004. Marine mammal data collected during the Hawaiian Islands Cetacean and Ecosystem Assessment Survey (HICEAS) conducted aboard the NOAA ships McArthur and David Starr Jordan, July-December 2002. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-362. 39pp\nJackson, A., T. Gerrodette, S. Chivers, M. Lynn, P. Olson, and S. Rankin. 2004. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard the NOAA ships McArthur II and David Starr Jordan, July 29 – December 10, 2003. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-366. 98 pp.\nKinzey, D., T. Gerrodette, A. Dizon, W. Perryman, P. Olson, and S. Rankin. 2001. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard the NOAA ships McArthur and David Starr Jordan, July 28-December 9, 2000. NOAA Tech. Memo. NOAA-TM-NMFS-SWFSC-303. 100pp."
+  },
+  {
+    "objectID": "standby.html",
+    "href": "standby.html",
+    "title": "standby",
+    "section": "",
+    "text": "As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by SciStarter) and participate in the City Nature Challenge hosted by The San Diego Natural History Museum. Planning is ongoing for the event in April 2025."
+  },
+  {
+    "objectID": "standby.html#scistarter-ambassador",
+    "href": "standby.html#scistarter-ambassador",
+    "title": "standby",
+    "section": "",
+    "text": "As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by SciStarter) and participate in the City Nature Challenge hosted by The San Diego Natural History Museum. Planning is ongoing for the event in April 2025."
+  },
+  {
+    "objectID": "education.html#dolphin-speak",
+    "href": "education.html#dolphin-speak",
+    "title": "Science Education",
+    "section": "Dolphin Speak",
+    "text": "Dolphin Speak\nDolphin Speak is a series of videos and associated educational materials on the topic of how scientists use sound to study dolphins. As a part of this effort, I collaborated with Dr. Julie Oswald at University of St. Andrews to create two ‘Dolphin Speak’ videos related to my research using sound to study dolphins. These video interviews were led by kids, for kids:"
   }
 ]

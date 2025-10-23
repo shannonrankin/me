@@ -1,0 +1,12 @@
+---
+title: "standby"
+format: html
+---
+
+## SciStarter Ambassador
+
+::: {layout="[30,70]"}
+![](images/badge-ambassador.png)
+
+As a SciStarter Ambassador, I will be collaborating with Girl Scouts San Diego to train troop leaders on Citizen Science so they can lead their troops in the Think Like a Citizen Scientist Journey (developed by [SciStarter](https://scistarter.org/ambassador/228216)) and participate in the [City Nature Challenge](https://www.sdnhm.org/education/community-science/city-nature-challenge/) hosted by The San Diego Natural History Museum. Planning is ongoing for the event in April 2025.
+:::
