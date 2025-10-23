@@ -2,6 +2,20 @@
 title: "Open Science"
 ---
 
+## Wildabs Group Co-Leader for Open Source Solutions
+
+::: {layout="[40,60]"}
+
+![](images/wildlabsLogo.jpg)
+
+Wildlabs is a global community of conservationists using technology to address environmental challenges and build skills for underrepresented groups in conservation. 
+
+:::
+
+As co-leader of the [Open Source Solutions](https://wildlabs.net/groups/open-source-solutions) group, I help promote community and conversation within this group and between the OSS group and other groups. In my few short months as co-lead, I have initiated a [Open Source Community Survey](https://wildlabs.net/discussion/open-source-community-survey) to better understand the community and it's needs and I am using these results to develop a Virtual Meetup to focus on highest priority community needs (networking and community building!). 
+
+
+
 ## NOAA Fisheries PAM- Strategic Initiative Open Science
 
 ::: {layout="[40,60]"}
@@ -56,7 +70,7 @@ Stack Exchange is a crowd-sourced Question & Answer site where information is ar
 
 The [Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com/) site is now a thriving portal with over 2,500 users, and links to questions on this site are top responses in relevant google searches.
 
-## Zotero Group Libraries 
+## Zotero Group Libraries
 
 Zotero is an open source tool for organizing and sharing bibliographic resources. As part of larger research projects, we have developed public Zotero group libraries for [Soundscape](https://www.zotero.org/groups/58164/soundscape) and for [PAM-Glider](https://www.zotero.org/groups/5642642/pam-gliders) literature.
 
