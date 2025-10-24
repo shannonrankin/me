@@ -1,7 +1,16 @@
 ---
 title: "Science Education"
-
 ---
+
+## Letters to a Pre-Scientist
+
+::: {layout="[40,60]"}
+
+![](images/LPS-logo.png)
+
+Pen-pal to middle school science students with [***Letters to a Pre-Scientist***](https://prescientist.org). This snail-mail pen-pal organization provides students with personal connections to scientists and give them an opportunity to see science as an accessible field of study.
+
+:::
 
 ## Sound Bytes Blog
 
@@ -16,7 +25,7 @@ In an effort to share our exciting research with the public, I had our lab devel
 ::: {layout="[30,70]"}
 ![](images/DataNuggets.png)
 
-Collaborated with Melissa Kjelvik from Data Nuggets to develop a K-12 classroom activity based on our Adrift in the California Current research. Data Nuggets are activities that bring real scientific data into the classroom. The project, ['Eavesdropping on the Ocean'](https://datanuggets.org/2024/04/eavesdropping-on-the-ocean/) is free and publicly accessible to teachers via their website.
+Collaborated with Melissa Kjelvik from [***Data Nuggets***](https://datanuggets.org/) to develop a K-12 classroom activity based on our Adrift in the California Current research. Data Nuggets are activities that bring real scientific data into the classroom. The project, ['Eavesdropping on the Ocean'](https://datanuggets.org/2024/04/eavesdropping-on-the-ocean/) is free and publicly accessible to teachers via their website.
 :::
 
 ## Phenomena Curriculum
@@ -29,11 +38,15 @@ In 2020 we collaborated with San Diego Unified School District to host a remote 
 
 ## Dolphin Speak
 
-[Dolphin Speak](https://dolphinspeak.wp.st-andrews.ac.uk/) is a series of videos and associated educational materials on the topic of how scientists use sound to study dolphins. As a part of this effort, I collaborated with Dr. Julie Oswald at University of St. Andrews to create two 'Dolphin Speak' videos related to my research using sound to study dolphins. These video interviews were led by kids, for kids:
+[***Dolphin Speak***](https://dolphinspeak.wp.st-andrews.ac.uk/) is a series of videos and associated educational materials on the topic of how scientists use sound to study dolphins. As a part of this effort, I collaborated with Dr. Julie Oswald at University of St. Andrews to create two 'Dolphin Speak' videos related to my research using sound to study dolphins. These video interviews were led by kids, for kids:
 
-<iframe title= "Looking at Sound" width="560" height="315" src="https://www.youtube.com/embed/4l7tF9DhzBw?si=G17pameN_R3RP6Gf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe title="Looking at Sound" width="560" height="315" src="https://www.youtube.com/embed/4l7tF9DhzBw?si=G17pameN_R3RP6Gf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-<iframe title= "Studying Wild Dolphins" width="560" height="315" src="https://www.youtube.com/embed/mf9fOj6KiOk?si=UbYVyJ-ej9J8VRxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe>
+
+<iframe title="Studying Wild Dolphins" width="560" height="315" src="https://www.youtube.com/embed/mf9fOj6KiOk?si=UbYVyJ-ej9J8VRxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 
 ## Previous Science Education Experiences
 
